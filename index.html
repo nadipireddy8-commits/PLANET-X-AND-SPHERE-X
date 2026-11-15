@@ -1,4 +1,6 @@
+<!-- © 2026 Team Gravity Wells (N R Jitendar Reddy, Devadula Siva Praneeth, Kalyan Kumar). All rights reserved. -->
 <!DOCTYPE html>
+
 <!--
   SPHEREx Sky Explorer
   ---------------------------------------------------------------
@@ -24,7 +26,7 @@
 
 <!-- Fonts from Google Fonts (optional; the page still works without them) -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=IBM+Plex+Mono:wght@400;500&family=Hanken+Grotesk:wght@400;600&display=swap">
-
+/* © 2026 Team Gravity Wells */
 <style>
 /* =====================================================================
    CSS = how the page looks. Each block below styles one part of the page.
@@ -3089,5 +3091,6 @@ const nm=real?getTracks().map(t=>'<div class="st"><b style="font-size:13px">'+t.
 el.innerHTML=c(real?imgs+' / 4':'4 / 4','Images '+(real?'uploaded':'(demo sky)'),real?(imgs<4?'upload up to 4 passes':'all 4 passes loaded'):'synthetic')+c(tr,'Objects with changing position','tracked across the passes')+c(cand,'Changes found P'+(state.passA+1)+'→P'+(state.passB+1),'strongest peaks, max 8')+c(4*(4-1)/2,'Pass pairs to compare','P1–P4, '+(real?'your images':'demo'))+nm}catch(e){}}
 const _u=updatePanels;updatePanels=function(){_u.apply(this,arguments);up()};up();setInterval(up,1500)})();
 </script>
+  <footer>© 2026 Team Gravity Wells · SPHEREx Sky Explorer</footer>
 </body>
 </html>
